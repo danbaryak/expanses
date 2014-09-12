@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;org.expanses.about/static/partials/about.html&apos; to &apos;cards.html&apos;" description="Rename resource &apos;about.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="static/partials/about.html" name="cards.html" stamp="1407706834222" updateReferences="true"/>
+</session>

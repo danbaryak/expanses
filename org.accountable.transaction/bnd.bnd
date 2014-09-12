@@ -1,0 +1,15 @@
+-buildpath:  \
+osgi.cmpn,\
+	org.apache.felix.dependencymanager,\
+	org.mongodb.mongo-java-driver;version=latest,\
+	org.amdatu.mongo;version=latest,\
+	org.amdatu.web.rest.jaxrs;version=latest,\
+	jackson-core-asl,\
+	jackson-mapper-asl,\
+	org.mongojack,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	osgi.core;version=4.3.1,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	org.apache.commons.lang3
+-sub:  \
+	*.bnd

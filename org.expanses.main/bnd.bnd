@@ -1,0 +1,48 @@
+
+	-buildpath:  \
+	org.apache.felix.dependencymanager,\
+	osgi.cmpn,\
+	osgi.core,\
+	org.apache.felix.http.jetty,\
+	org.apache.felix.http.whiteboard,\
+	org.apache.commons.io
+-sub:  \
+	*.bnd
+-runfw: org.apache.felix.framework;version='[4.2.1,4.2.1]'
+-runee: JavaSE-1.7
+-runbundles:  \
+	osgi.cmpn,\
+	org.apache.felix.gogo.shell,\
+	org.apache.felix.gogo.command,\
+	org.apache.felix.gogo.runtime,\
+	org.apache.felix.dependencymanager,\
+	org.apache.felix.http.jetty,\
+	org.apache.felix.log,\
+	org.apache.httpcomponents.httpcore,\
+	org.apache.felix.http.whiteboard,\
+	org.apache.commons.io,\
+	org.amdatu.web.resourcehandler,\
+	org.apache.commons.fileupload,\
+	org.apache.felix.webconsole,\
+	org.apache.felix.dependencymanager.shell,\
+	com.fasterxml.jackson.jaxrs.jackson-jaxrs-base,\
+	com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	com.fasterxml.jackson.core.jackson-core,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	org.amdatu.web.rest.wink,\
+	jackson-jaxrs,\
+	org.amdatu.web.rest.jaxrs,\
+	jackson-core-asl,\
+	jackson-mapper-asl,\
+	org.mongojack,\
+	org.amdatu.mongo,\
+	org.mongodb.mongo-java-driver,\
+	de.undercouch.bson4jackson,\
+	javax.persistence,\
+	org.apache.felix.configadmin,\
+	
+	
+	
+
+	

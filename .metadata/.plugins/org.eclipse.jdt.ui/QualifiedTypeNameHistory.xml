@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.impl.TransactionServiceImpl"/>
+<fullyQualifiedTypeName name="org.amdatu.mongo.MongoDBService"/>
+<fullyQualifiedTypeName name="com.mongodb.DBCollection"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonProperty"/>
+<fullyQualifiedTypeName name="org.mongojack.WriteResult"/>
+<fullyQualifiedTypeName name="org.mongojack.DBCursor"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.Transaction"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Context"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.UriInfo"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.TransactionService"/>
+<fullyQualifiedTypeName name="javax.ws.rs.WebApplicationException"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.UriBuilder"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MultivaluedMap"/>
+<fullyQualifiedTypeName name="org.mongojack.JacksonDBCollection"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.Expanse"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.rest.ExpanseResource"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.ExpansesService"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.impl.ExpanseServiceImpl"/>
+<fullyQualifiedTypeName name="com.mongodb.DBObject"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.DbBase"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.rest.CRUDResource"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.Balance"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.rest.BalanceResource"/>
+<fullyQualifiedTypeName name="org.accountable.transaction.BalanceService"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="org.accountable.balance.rest.BalanceResource"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="simplerest.SimpleResource"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="bidir.conifgfile.ConfigHandler"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.felix.dm.DependencyManager"/>
+<fullyQualifiedTypeName name="org.apache.felix.dm.DependencyActivatorBase"/>
+<fullyQualifiedTypeName name="bidir.conifgfile.ServiceConfigurationListener"/>
+<fullyQualifiedTypeName name="bidir.unitservice.config.UnitServiceConfigurator"/>
+<fullyQualifiedTypeName name="bidir.configurator.ServiceConfigurator"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,8 @@
+Bundle-Version: 0.0.0.${tstamp}
+Export-Package:  \
+	org.accountable.transaction,\
+	org.accountable.common.services
+Private-Package:  \
+	org.accountable.transaction.impl,\
+	org.accountable.common.services.impl
+Bundle-Activator: org.accountable.transaction.impl.Activator

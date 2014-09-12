@@ -1,0 +1,16 @@
+-runbundles:  \
+	org.apache.felix.configadmin,\
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	osgi.cmpn,\
+	bidir.service.configurator;version=latest,\
+	bidir.systemparameters;version=latest,\
+	bidir.unitserviceconfig;version=latest,\
+	org.apache.felix.gogo.command,\
+	org.apache.felix.gogo.runtime,\
+	org.apache.felix.gogo.shell,\
+	org.apache.felix.dependencymanager.shell
+	
+-runfw: org.apache.felix.framework;version='[4.2.1,4.2.1]'
+-runee: JavaSE-1.7
+	

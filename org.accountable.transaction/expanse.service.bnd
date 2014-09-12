@@ -1,0 +1,7 @@
+Export-Package:  \
+	org.accountable.expanse,\
+	org.accountable.common.services
+Private-Package:  \
+	org.accountable.expanse.impl,\
+	org.accountable.common.services.impl
+Bundle-Activator: org.accountable.expanse.impl.Activator

@@ -1,0 +1,11 @@
+declaration=false
+eclipse.preferences.version=1
+mapRoot=
+module=default
+noImplicitAny=false
+noResolve=false
+removeComments=false
+source=${FILE_LOC}
+sourceMap=false
+target=${FILE_LOC}
+targetVersion=ES3

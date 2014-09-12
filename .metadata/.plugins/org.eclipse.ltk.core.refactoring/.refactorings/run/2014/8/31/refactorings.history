@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;run/conf/org.amdatu.mongo-tetra.config-1.0.0.xml&apos; to &apos;org.amdatu.mongo-accountable.config-1.0.0.xml&apos;" description="Rename resource &apos;org.amdatu.mongo-tetra.config-1.0.0.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="conf/org.amdatu.mongo-tetra.config-1.0.0.xml" name="org.amdatu.mongo-accountable.config-1.0.0.xml" stamp="1407006958507" updateReferences="true"/>
+</session>

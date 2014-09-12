@@ -1,0 +1,3 @@
+Bundle-Activator: bidir.unitservice.config.Activator
+Private-Package:  \
+	bidir.unitservice.config

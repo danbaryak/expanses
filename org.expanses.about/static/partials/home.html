@@ -1,0 +1,53 @@
+<div class="home-content container-fluid" ng-controller="HomeCtrl"
+	fade-in>
+	<div class="content">
+		<div id="chart">
+			<div chart></div>
+		</div>
+		<div id="timeline" class="timeline-frame">
+			<!-- here goes the timeline -->
+			<div timeline></div>
+		</div>
+	</div>
+
+	<div class="cards-container sidebar ">
+
+		<div ng-show="selected && selectedObjectType == 'expanse'" class="card from-right">
+			<div class="card-title"><span class="card-title-icon img-circle"><i class="fa fa-taxi"></span></i>  {{selected.name}}</div>
+			<div class="card-content">
+				<input-field lbl="Name" ng-model="selected.name"></input-field>
+				<input-field lbl="Description" ng-model="selected.description"></input-field>
+				<input-field lbl="Amount" ng-model="selected.amount"></input-field>
+			</div>
+		</div>
+		<div ng-show="selected && selectedObjectType == 'transaction'" class="card from-right">
+			<div class="card-title-transaction"><span class="card-title-icon img-circle"><i class="fa fa-taxi"></span></i>  {{selected.name}}</div>
+			<div class="card-content">
+				<input-field lbl="Name" ng-model="selected.name"></input-field>
+				<input-field lbl="Description" ng-model="selected.description"></input-field>
+				<input-field lbl="Amount" ng-model="selected.amount"></input-field>
+			</div>
+		</div>
+		<div ng-show="selected && selectedObjectType == 'balance'" class="card from-right">
+			<div class="card-title-balance"><span class="card-title-icon-balance img-circle"><i class="fa fa-money"></span></i> Balance for {{selected.time | date:'dd/MM/yy HH:mm' }}</div>
+			<div class="card-toolbar">
+				<button ng-click="deleteSelected()" class="tool-button btn btn-default"><i class="fa fa-trash-o"></i></button>
+			</div>
+			<div class="card-content">
+				<input-field lbl="Amount" ng-model="selected.amount"></input-field>
+			</div>
+		</div>
+		<div ng-hide="selected" class="tool-panel fade-right">
+			<div class="tile-blue selected-time">
+				<i class="icon-med fa fa-clock-o"></i>    {{ selectedTime | date:'EEE dd/MM/yy HH:mm:ss'}}
+			</div>
+			<div ng-click="updateBalance()" class="tile-orange">
+				<i class="fa fa-money"></i> Enter Actual Balance
+			</div>
+		
+		</div>
+
+	</div>
+
+
+</div>

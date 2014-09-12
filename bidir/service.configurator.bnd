@@ -1,0 +1,3 @@
+Export-Package:  \
+	bidir.configurator,\
+	bidir.conifgfile

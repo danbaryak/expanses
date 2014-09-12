@@ -1,0 +1,4 @@
+build.path.sourceFolder=static
+compiler.outputDirOption=static
+compiler.outputFileOption=someFile.js
+eclipse.preferences.version=1

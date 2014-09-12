@@ -1,0 +1,4 @@
+Private-Package:  \
+	org.accountable.balance.rest,\
+	org.accountable.common.rest.impl
+Bundle-Activator: org.accountable.balance.rest.Activator

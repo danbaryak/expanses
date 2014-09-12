@@ -1,0 +1,17 @@
+1406756347002	Rename resource 'org.site.login.api.bnd'
+1406756361809	Rename resource 'org.site.login.mongo.bnd'
+1406756370228	Rename resource 'org.site.login.rest.bnd'
+1406756380764	Rename resource 'org.site.login.ui.bnd'
+1406756400109	Rename package 'org.site.login'
+1406756428389	Rename package 'org.site.login'
+1406756440337	Delete element
+1406756446446	Delete element
+1406756471917	Copy package
+1406756493390	Rename package 'org.site.login.mongo'
+1406756502236	Rename package 'org.site.login.rest'
+1406756513138	Delete element
+1406756519041	Rename package 'org.site.login.api'
+1406756657996	Rename resource 'org.exapnses.login.ui.bnd'
+1406756671047	Rename resource 'org.expanses.login.rest.bnd'
+1406756675182	Rename resource 'org.expanses.login.mongo.bnd'
+1406756679982	Rename resource 'org.expanses.login.api.bnd'

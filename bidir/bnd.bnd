@@ -1,0 +1,9 @@
+	-buildpath:  \
+		org.amdatu.web.rest.jaxrs,\
+		osgi.cmpn,\
+		osgi.core,\
+		org.apache.felix.dependencymanager
+	
+	
+-sub:  \
+	*.bnd

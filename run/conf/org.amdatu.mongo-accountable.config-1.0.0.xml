@@ -1,0 +1,12 @@
+<MetaData xmlns="http://www.osgi.org/xmlns/metatype/v1.0.0"> 
+  <OCD name='ocd' id='ocd'>
+  	<AD id='dbName' type='STRING' cardinality='0' />
+  </OCD>
+  <Designate factoryPid='org.amdatu.mongo' pid='org.amdatu.mongo-tetra'  bundle="osgi-dp:org.amdatu.mongo">
+    <Object ocdref='ocd'>
+      <Attribute adref='dbName'>
+        <Value><![CDATA[${context.dbName}]]></Value>
+      </Attribute>	
+    </Object>
+  </Designate>
+</MetaData>

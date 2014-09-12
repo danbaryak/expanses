@@ -1,0 +1,3 @@
+Bundle-Activator: org.accountable.transaction.rest.Activator
+Private-Package:  \
+	org.accountable.transaction.rest

@@ -1,0 +1,6 @@
+Bundle-Version: 0.0.0.${tstamp}
+Service-Component:  \
+	*
+Bundle-Activator: org.expanses.main.Activator
+Private-Package:  \
+	org.expanses.main

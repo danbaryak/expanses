@@ -1,0 +1,7 @@
+Private-Package:  \
+	org.accountable.balance.impl,\
+	org.accountable.common.services.impl
+Export-Package:  \
+	org.accountable.balance,\
+	org.accountable.common.services
+Bundle-Activator: org.accountable.balance.impl.Activator

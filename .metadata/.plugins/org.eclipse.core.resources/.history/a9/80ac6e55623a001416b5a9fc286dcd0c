@@ -1,0 +1,24 @@
+<div ng-app="app">
+
+	<nav class="navbar navbar-default" role="navigation" ng-controller="NavCtrl">
+		<ul>
+			<li><a class="navbar-link" ui-sref-active="main-active-link" ui-sref="{{menu.appNameRef}}">{{menu.appName}}</a></li>
+		</ul>
+
+		<ul ng-repeat="m in menu.entries" class="nav navbar-nav">
+			<li ng-hide="m.hidden"><a class="navbar-link" ui-sref-active="active-link" ui-sref="{{m.sref}}">{{m.name}}</a></li>
+		</ul>
+		<div class="nav navbar-right">
+			<ul ng-repeat="m in menu.rightMenu" class="nav navbar-nav">
+				<li ng-hide="m.hidden"><a class="navbar-link" ui-sref-active="active-link" ui-sref="{{m.sref}}">{{m.name}}</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- MAIN CONTENT -->
+	<div class="container-fluid">
+	
+		<div class="main-view" ui-view></div>
+
+	</div>
+</div>

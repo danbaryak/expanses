@@ -1,0 +1,4 @@
+Private-Package:  \
+	org.accountable.expanse.rest,\
+	org.accountable.common.rest.impl
+Bundle-Activator: org.accountable.expanse.rest.Activator

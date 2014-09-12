@@ -1,0 +1,5 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	org.apache.commons.collections,\
+	org.apache.commons.io,\
+	org.apache.commons.lang3
