@@ -13,7 +13,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
 		url : '/cards',
 		templateUrl : 'about/partials/cards.html'
 	})
-
+	.state('fixed', {
+		url: '/fixed',
+		templateUrl: 'about/partials/fixed.html'
+	})
 	.state('another', {
 		url : '/another',
 		templateUrl : 'about/partials/another.html'
@@ -26,5 +29,5 @@ app.run(function(MainMenu) {
 	MainMenu.appNameRef = 'home';
 
 	MainMenu.add(0, 'Credit Cards', 'cards');
-	MainMenu.add(1, 'Fixed Expanses', 'another');
+	MainMenu.add(1, 'Fixed Expanses', 'fixed');
 });

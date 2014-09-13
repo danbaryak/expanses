@@ -13,7 +13,7 @@ app.directive('chart', function($rootScope) {
 						"visible": false
 					},
 					"lines": [
-	                    {color: "#FF9900", width: 2}
+	                    {color: "#f15c78", width: 2}
 		            ]
 				};
 

@@ -13,16 +13,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="active-li" key="selection"/>
+		<item value="content {" key="selection"/>
 		<list key="findhistory">
-			<item value="active-li"/>
-			<item value="highlight"/>
-			<item value="active-l"/>
-			<item value="icon"/>
-			<item value="navbar-li"/>
-			<item value="font-weight"/>
-			<item value="navbar-link"/>
-			<item value="brand"/>
+			<item value="content {"/>
+			<item value="margin-bot"/>
+			<item value="nav"/>
+			<item value="20px"/>
+			<item value="margin-"/>
+			<item value="content"/>
+			<item value="home-con§"/>
+			<item value="home-con"/>
 		</list>
 		<list key="replacehistory">
 		</list>
